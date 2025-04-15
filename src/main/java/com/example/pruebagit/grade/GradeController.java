@@ -26,4 +26,6 @@ public class GradeController {
     ResponseEntity<Grade> setGrade(@RequestBody Grade grade){
         return ResponseEntity.ok(gradeRepository.save(grade));
     }
+
+
 }
